@@ -1,3 +1,11 @@
+# **PIn test Installation**
+
+For installation guide, please visit the following link
+
+<div>
+https://github.com/ruislab/pintest/blob/main/Installation%20guide.md
+</div>
+
 # **PIn test Manual**
 
 ---
