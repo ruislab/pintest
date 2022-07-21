@@ -14,35 +14,40 @@ After downloading the package, open the exe file
 
 select **Customize installation**.
 
-![](file:///C:/Users/dell/AppData/Roaming/marktext/images/2022-07-20-16-42-46-image.png?msec=1658395405482)
+![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-16-42-46-image.png)
 
 Select the following Optional Features, especially the **pip**
 
-![](file:///C:/Users/dell/AppData/Roaming/marktext/images/2022-07-20-16-45-16-image.png?msec=1658395405484)Click Next and In the <u>Advanced Options</u> select **Download debug binaries**.
+![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-16-44-05-image.png)
+
+Click Next and In the <u>Advanced Options</u> select **Download debug binaries**.
 
 Choose install location as **C:\python**
 
-![](file:///C:/Users/dell/AppData/Roaming/marktext/images/2022-07-20-16-43-22-image.png?msec=1658395405484)
+![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-16-43-22-image.png)
 
 **<u>After installation of python finished, we need to set up the environment variables.</u>**
 
-### 2. Enviroment Variable Set Up
+### 2. Environment Variable Set Up
 
 Open<u> File Explorer</u>, Right click <u>This PC</u>, select **<u>Properties</u>**
 
-![](file:///C:/Users/dell/AppData/Roaming/marktext/images/2022-07-20-16-56-07-image.png?msec=1658395405473)
+![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-16-56-07-image.png)
+
 
 Scroll down, in the Related Settings filed, select **<u><mark>Advanced system settings</mark></u>**
 
-![](file:///C:/Users/dell/AppData/Roaming/marktext/images/2022-07-20-16-58-02-image.png?msec=1658395405472)
+![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-16-58-02-image.png)
+
 
 Select **<u><mark>Environment Variables</mark></u>**
 
-![](file:///C:/Users/dell/AppData/Roaming/marktext/images/2022-07-20-16-59-29-image.png?msec=1658395405472)
+![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-16-59-29-image.png)
+
 
 In the **System Variables**, <u>double clicked</u> the <u><mark>**Path** </mark></u>
 
-![](file:///C:/Users/dell/AppData/Roaming/marktext/images/2022-07-20-17-04-30-image.png?msec=1658395405473)
+![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-17-04-30-image.png)
 
 Add two new PATHs and Save the changes
 
@@ -51,21 +56,21 @@ Add two new PATHs and Save the changes
 > C:\python\Scripts
 > ```
 
-![](file:///C:/Users/dell/AppData/Roaming/marktext/images/2022-07-20-17-04-53-image.png?msec=1658395405473)
+![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-17-04-53-image.png)
 
 Back to the System Variables, add new variable by clicking the **New** button.
 
-![](file:///C:/Users/dell/AppData/Roaming/marktext/images/2022-07-20-17-06-05-image.png?msec=1658395405474)
+![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-17-06-05-image.png)
 
 New variable name as **PYTHONHOME** and Variable value as **C:\PYTHON**, and click OK
 
-![](file:///C:/Users/dell/AppData/Roaming/marktext/images/2022-07-20-17-07-30-image.png?msec=1658395405474)
+![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-17-07-30-image.png)
 
 ### 3. Installation of dependent libraries
 
 Enter cmd in the current directory path and press "Enter" key on the keyboard,
 
-![](file:///C:/Users/dell/AppData/Roaming/marktext/images/2022-07-20-17-17-43-image.png?msec=1658395405475)
+![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-17-17-43-image.png)
 
 input the following commands
 
@@ -93,6 +98,6 @@ PIntest.exe
 
 If the following appears, the software has been installed successfully!
 
-![](file:///C:/Users/dell/AppData/Roaming/marktext/images/2022-07-20-17-25-41-image.png?msec=1658395405474)
+![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-17-25-41-image.png)
 
 #### **Now, you can use PIntest for analysis!**
