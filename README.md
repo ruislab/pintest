@@ -128,7 +128,7 @@ To allow for replication and problem tracking, a log file named *[Name].log* i
 PIntest.exe -gp E:\PIntest\example_genotype.txt -pp E:\PIntest\example_phenotype.txt
 ```
 
-This will process mode 1 (exhaustive pairwise epistasis testing) and SNPs are filtered using main main effect p-value < 0.01, and HWE > 0.01, and the output will be filtered using interaction p-value < 0.0001 in the default setting.
+This will process mode 1 (exhaustive pairwise epistasis testing) and SNPs are filtered using main effect p-value < 0.01, and HWE > 0.01, and the output will be filtered using interaction p-value < 0.0001 in the default setting.
 
 ```
 PIntest.exe -gp E:\PIntest\example_genotype.txt -pp E:\PIntest\example_phenotype.txt --ep E:\PIntest\subset.txt -mode 2
