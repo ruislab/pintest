@@ -2,6 +2,15 @@
 
 > For Windows System
 
+Download softwares
+
+| Operating Systems | Link |
+| --- | --- |
+| Windows 64bit |     |
+| Linux | coming soon |
+
+## Usage
+
 ### 1. Intallation of Python
 
 Download Python installation package via website
