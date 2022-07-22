@@ -38,10 +38,7 @@ PIntest.exe -gp [genotype data] -pp [phenotype data] -mode [mode] -ep [extra dat
 - **-pp**
   
   Phenotype data. A data frame containing phenotype information in the column. Phenotype should be coded as (0, 1). Length of the phenotype data should be equal to the number of rows of the genotype data.
-  |   |
-  |---|
-  | 1 |
-  | 0 | 
+  
   
 -  **-ep**
   
@@ -50,7 +47,7 @@ PIntest.exe -gp [genotype data] -pp [phenotype data] -mode [mode] -ep [extra dat
   If mode 2 is set, a data frame containing a list of specified SNPs name should be provided as extra data.
   
   If mode 3 is set, a data frame containing specified SNP pairs should be provided as extra data.
-  
+  provided as extra data.
 
 ### **Parameters**
 
