@@ -20,7 +20,7 @@ For pairwise interaction calculation, the software has 3 modes: (1) calculate th
 
 | Operating Systems | Link |
 | --- | --- |
-| Windows 64bit | [V1.0](https://ruislab.github.io/pintest/releases/download/V1.0/PInteste_V1.0.zip) |
+| Windows 64bit | [V1.0](https://ruislab.github.io/pintest/V1.0/PInteste_V1.0.zip) |
 | Linux | coming soon |
 
 
