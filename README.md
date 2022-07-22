@@ -53,7 +53,8 @@ PIntest.exe -gp [genotype data] -pp [phenotype data] -mode [mode] -ep [extra dat
   
 -  **-ep**
   
-  **Extra file path for mode 2 and mode 3.**
+  **Extra data for mode 2 and mode 3.**
+  No header needed for extra data.
   
   If mode 2 is set, a data frame containing a list of specified SNPs name should be provided as extra data.
   
