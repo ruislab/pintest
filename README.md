@@ -159,72 +159,15 @@ PIntest.exe -gp E:\PIntest\example_genotype.txt -pp E:\PIntest\example_phenotype
 
 This will process mode 1 (exhaustive pairwise epistasis testing) and SNPs are filtered using main effect p-value < 0.01, and HWE > 0.01, and the output will be filtered using interaction p-value < 0.0001 in the default setting.
 
-The final results would be
-
-  
-| SNP1  | SNP2  | stat    | df  | p        |
-|:-----:|:-----:|:-------:|:---:|:--------:|
-| SNP73 | SNP78 | 42.0294 | 6   | 1.81E-07 |
-| SNP63 | SNP78 | 25.5566 | 3   | 1.18E-05 |
-| SNP54 | SNP73 | 24.3812 | 3   | 2.08E-05 |
-| SNP48 | SNP78 | 26.8461 | 4   | 2.14E-05 |
-| SNP38 | SNP78 | 23.9462 | 3   | 2.56E-05 |
-| SNP33 | SNP78 | 30.9649 | 6   | 2.57E-05 |
-| SNP74 | SNP78 | 30.8585 | 6   | 2.70E-05 |
-| SNP70 | SNP78 | 30.6097 | 6   | 3.01E-05 |
-| SNP33 | SNP73 | 28.9338 | 6   | 6.26E-05 |
-| SNP78 | SNP81 | 28.6709 | 6   | 7.02E-05 |
-| SNP68 | SNP78 | 28.369  | 6   | 8.01E-05 |
-| SNP4  | SNP73 | 28.2112 | 6   | 8.57E-05 |
-| SNP54 | SNP78 | 21.4248 | 3   | 8.59E-05 |
-| SNP4  | SNP78 | 25.784  | 5   | 9.83E-05 |
-  
-
 ```
 PIntest.exe -gp E:\PIntest\example_genotype.txt -pp E:\PIntest\example_phenotype.txt --ep E:\PIntest\subset.txt -mode 2
 ```
 
 This will process mode 2 epistasis testing in specified SNPs (SNPs in the subset.txt file) interacting with all markers.
 
-The final results would be
-
-| SNP1 | SNP2 | stat | df  | p   |
-| --- | --- | --- | --- | --- |
-| SNP38 | SNP57 | 34.221 | 6   | 6.10E-06 |
-| SNP38 | SNP4 | 24.5274 | 3   | 1.94E-05 |
-| SNP46 | SNP57 | 28.8015 | 5   | 2.54E-05 |
-| SNP8 | SNP57 | 27.5407 | 5   | 4.47E-05 |
-| SNP38 | SNP69 | 22.565 | 3   | 4.98E-05 |
-| SNP38 | SNP47 | 28.6395 | 6   | 7.12E-05 |
-| SNP106 | SNP57 | 23.645 | 4   | 9.41E-05 |
-
 ```
 PIntest.exe -gp E:\PIntest\example_genotype.txt -pp E:\PIntest\example_phenotype.txt --ep E:\PIntest\pairs.txt -mode 3
 ```
 
 This will process mode 3 epistasis testing in specified SNP pairs (snp pairs in the pairs.txt file)
-
-The final results would be
-
-| SNP1 | SNP2 | stat | df  | p   |
-| --- | --- | --- | --- | --- |
-| SNP44 | SNP81 | 9.03227 | 2   | 1.09E-02 |
-| SNP96 | SNP17 | 8.27003 | 2   | 1.60E-02 |
-| SNP102 | SNP96 | 10.8958 | 4   | 2.78E-02 |
-| SNP40 | SNP84 | 3.98812 | 1   | 4.58E-02 |
-| SNP56 | SNP20 | 6.00808 | 2   | 4.96E-02 |
-| SNP36 | SNP32 | 7.07911 | 3   | 6.94E-02 |
-| SNP84 | SNP71 | 5.05871 | 2   | 7.97E-02 |
-| SNP32 | SNP76 | 5.49955 | 3   | 1.39E-01 |
-| SNP31 | SNP37 | 8.02078 | 6   | 2.37E-01 |
-| SNP108 | SNP16 | 2.78324 | 2   | 2.49E-01 |
-| SNP19 | SNP74 | 4.86663 | 5   | 4.32E-01 |
-| SNP18 | SNP55 | 2.66299 | 3   | 4.47E-01 |
-| SNP73 | SNP25 | 1.60111 | 2   | 4.49E-01 |
-| SNP64 | SNP67 | 1.96964 | 3   | 5.79E-01 |
-| SNP93 | SNP80 | 3.48862 | 5   | 0.625111 |
-| SNP103 | SNP97 | 3.15864 | 5   | 0.675544 |
-| SNP86 | SNP92 | 0.991538 | 3   | 0.8033 |
-| SNP55 | SNP9 | 1.2591 | 4   | 0.868275 |
-| SNP59 | SNP69 | 0.345499 | 3   | 0.951256 |
 
