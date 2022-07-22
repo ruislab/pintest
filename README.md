@@ -20,7 +20,7 @@ For pairwise interaction calculation, the software has 3 modes: (1) calculate th
 
 | Operating Systems | Link |
 | --- | --- |
-| Windows 64bit | [V4.1](https://github.com/ruislab/pintest/releases/download/V4.1/PInteste_V4.zip) |
+| Windows 64bit | [V4.1](https://github.com/ruislab/pintest/releases/latest/download/V4.1/PInteste_V4.zip) |
 | Linux | coming soon |
 
 
@@ -227,3 +227,4 @@ The final results would be
 | SNP86 | SNP92 | 0.991538 | 3   | 0.8033 |
 | SNP55 | SNP9 | 1.2591 | 4   | 0.868275 |
 | SNP59 | SNP69 | 0.345499 | 3   | 0.951256 |
+
