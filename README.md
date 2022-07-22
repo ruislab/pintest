@@ -20,7 +20,7 @@ For pairwise interaction calculation, the software has 3 modes: (1) calculate th
 
 | Operating Systems | Link |
 | --- | --- |
-| Windows 64bit | [V4.1](https://github.com/ruislab/pintest/releases/latest/download/V4.1/PInteste_V4.zip) |
+| Windows 64bit | [V1.0](https://github.com/ruislab/pintest/releases/latest/download/V4.1/PInteste_V4.zip) |
 | Linux | coming soon |
 
 
@@ -57,16 +57,9 @@ PIntest.exe -gp [genotype data] -pp [phenotype data] -mode [mode] -ep [extra dat
   
   If mode 2 is set, a data frame containing a list of specified SNPs name should be provided as extra data.
   
-  <p align="center">
-  <img title="" src="https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-22-14-52-32-image.png" alt="" data-align="center" width="134">
-  </p>
-  
   If mode 3 is set, a data frame containing specified SNP pairs should be provided as extra data.
   provided as extra data.
-  
-  <p align="center">
-  <img title="" src="https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-22-14-51-47-image.png" alt="" data-align="center" width="175">
-  </p>
+
 
 ### **Parameters**
 
