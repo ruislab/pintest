@@ -128,7 +128,9 @@ PIntest.exe -gp [genotype data] -pp [phenotype data] -mode [mode] -ep [extra dat
   
 - Deletion File
   
-  A file named [NAME].del contains SNPs or SNP pairs excluded during the embedded quality control process
+  A file named [NAME].del1 contains *SNPs* excluded during the embedded quality control process.
+
+  A file named [NAME].del contains *SNP pairs* excluded during the embedded quality control process.
   
 - Chisquare test file
   
