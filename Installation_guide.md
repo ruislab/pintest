@@ -6,7 +6,7 @@ Download softwares
 
 | Operating Systems | Link |
 | --- | --- |
-| Windows 64bit | [V4.1](https://github.com/ruislab/pintest/releases/download/V4.1/PInteste_V4.zip) |
+| Windows 64bit | [V1.0](https://github.com/ruislab/pintest/releases/latest/download/PInteste_V1.0.zip) |
 | Linux | coming soon |
 
 ## Usage
