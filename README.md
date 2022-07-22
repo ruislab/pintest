@@ -26,11 +26,22 @@ PIntest.exe -gp [genotype data] -pp [phenotype data] -mode [mode] -ep [extra dat
 
 - **-gp**
   
-  Genotype data. A data frame containing genotype information in the column. Genotypes should be coded as **(0, 1, 2) or (0, 1)**.
+  Genotype data. A data frame containing genotype information in the column. Genotypes should be coded as **(0, 1, 2) or (0, 1)**.  
+  | SNP1 | SNP2 | SNP3 | SNP4 | SNP5 | SNP6 | SNP7 | SNP8 | SNP9 | SNP10 | SNP11 | SNP12 |
+  | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+  | 0   | 0   | 2   | 0   | 1   | 1   | 1   | 0   | 1   | 0   | 2   | 0   |
+  | 1   | 1   | 2   | 1   | 2   | 1   | 0   | 0   | 0   | 0   | 1   | 1   |
+  | 1   | 0   | 1   | 2   | 2   | 0   | 0   | 1   | 1   | 0   | 1   | 0   |
+  | 2   | 0   | 0   | 1   | 1   | 0   | 0   | 2   | 1   | 2   | 2   | 1   |
+  | 1   | 1   | 0   | 0   | 0   | 1   | 1   | 0   | 0   | 1   | 0   | 0   |
   
 - **-pp**
   
   Phenotype data. A data frame containing phenotype information in the column. Phenotype should be coded as (0, 1). Length of the phenotype data should be equal to the number of rows of the genotype data.
+  |   |
+  |---|
+  | 1 |
+  | 0 | 
   
 -  **-ep**
   
