@@ -16,6 +16,7 @@ https://github.com/ruislab/pintest/blob/main/Installation%20guide.md
 
 For pairwise interaction calculation, the software has 3 modes: (1) calculate the pairwise interaction exhaustively for all SNPs, (2) calculate pairwise interaction between a given SNP set and all SNPs, (3) calculate the pairwise interaction for a list of SNP pairs. The software embeds a quality control step to filter out SNPs that violate the assumptions of this method. For mode 1, the output can be filtered by p-values, such that only SNP pairs with smaller p-value than a threshold (p.output) will be returned.
 
+
 ## Usage
 
 ```
