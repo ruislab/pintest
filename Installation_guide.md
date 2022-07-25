@@ -9,7 +9,7 @@ Download softwares
 | Windows 64bit | [V1.0](https://github.com/ruislab/pintest/releases/latest/download/PInteste_V1.0.zip) |
 | Linux | coming soon |
 
-## Usage
+## Set up
 
 ### 1. Intallation of Python
 
