@@ -3,7 +3,7 @@
 For installation guide, please visit the following link
 
 <div>
-https://github.com/ruislab/pintest/blob/main/Installation%20guide.md
+https://github.com/ruislab/pintest/blob/main/Installation_guide.md
 </div>
 
 # **PIn test Manual**
