@@ -1,6 +1,6 @@
 # **PIn test Installation**
 
-PIn test highly depends on <u>python and other dependencies</u>, **we strongly recommend users read through <u><mark>installation guide</mark></u> before using!**
+**PIn test highly depends on <u>python and other dependencies</u>, **we strongly recommend users read through <u><mark>installation guide</mark></u> before using!****
 
 For installation guide, please visit the following link
 
