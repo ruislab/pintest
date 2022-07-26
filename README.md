@@ -1,6 +1,6 @@
 # **PIn test Installation**
 
-**PIn test highly depends on <u>python and other dependencies</u>, **we strongly recommend users read through <u><mark>installation guide</mark></u> before using!****
+PIn test depends on <u>python and other dependencies</u>, **we strongly recommend users read through <u><mark>installation guide</mark></u> before using!**
 
 For installation guide, please visit the following link
 
@@ -81,14 +81,14 @@ PIntest.exe -gp [genotype data] -pp [phenotype data] -mode [mode] -ep [extra dat
   P-value threshold of Hardy-Weinberg equilibrium (HWE) test for filtering the genetic markers. Markers that failed the HWE test will be excluded from the testing.
   Default is 0.01
   
-- **p.input**
+- **-p.input**
   
   A p-value threshold to select markers for pairwise calculation.
   
   When specified, only markers with main effect p-value from Chi-square test smaller than *p.input* will be passed to the interaction effect calculation. 
   Default is 0.01. *Set p.input 1 for exhaustive pairwise calculation.*
   
-- **p.output**
+- **-p.output**
   
   A p-value threshold for filtering the output of mode 1.
   
@@ -165,5 +165,5 @@ This will process mode 2 epistasis testing in specified SNPs (SNPs in the subset
 PIntest.exe -gp E:\PIntest\example_genotype.txt -pp E:\PIntest\example_phenotype.txt --ep E:\PIntest\pairs.txt -mode 3
 ```
 
-This will process mode 3 epistasis testing in specified SNP pairs (snp pairs in the pairs.txt file)
+This will process mode 3 epistasis testing in specified SNP pairs (SNP pairs in the pairs.txt file)
 
