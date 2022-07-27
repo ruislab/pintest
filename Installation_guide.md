@@ -20,48 +20,45 @@ https://www.python.org/ftp/python/3.7.9/python-3.7.9-amd64.exe
 </div>
 
 After downloading the package, open the exe file
-
-
 select **Customize installation**.
 
 ![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-16-42-46-image.png)
 
-
+<br/><br/>
 Select the following Optional Features, especially the **pip**
 
 ![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-16-44-05-image.png)
 
 Click Next and In the <u>Advanced Options</u> select **Download debug binaries**.
 
-
+<br/><br/>
 Choose install location as **C:\python**
 
 ![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-27-16-43-22-image.png)
 
-
+<br/><br/>
 **<u>After installation of python finished, we need to set up the environment variables.</u>**
+<br/><br/>
 
 ### 2. Environment Variable Set Up
 
 Open<u> File Explorer</u>, Right click <u>This PC</u>, select **<u>Properties</u>**
 
 ![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-16-56-07-image.png)
-
-
-Scroll down, in the Related Settings filed, select **<u><mark>Advanced system settings</mark></u>**
+<br/><br/>
+In the Related Settings filed, select **<u><mark>Advanced system settings</mark></u>**
 
 ![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-16-58-02-image.png)
-
-
+<br/><br/>
 Select **<u><mark>Environment Variables</mark></u>**
-
+<br/><br/>
 ![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-16-59-29-image.png)
-
-
+<br/><br/>
 In the **System Variables**, <u>double clicked</u> the <u><mark>**Path** </mark></u>
-
+<br/><br/>
 ![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-17-04-30-image.png)
 
+<br/><br/>
 Add two new PATHs and Save the changes
 
 > ```
@@ -74,8 +71,7 @@ Add two new PATHs and Save the changes
 Back to the System Variables, add new variable by clicking the **New** button.
 
 ![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-17-06-05-image.png)
-
-
+<br/><br/>
 New variable name as **PYTHONHOME** and Variable value as **C:\PYTHON**, and click OK
 
 ![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-27-17-07-30-image.png)
