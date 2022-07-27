@@ -21,9 +21,11 @@ https://www.python.org/ftp/python/3.7.9/python-3.7.9-amd64.exe
 
 After downloading the package, open the exe file
 
+
 select **Customize installation**.
 
 ![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-16-42-46-image.png)
+
 
 Select the following Optional Features, especially the **pip**
 
@@ -31,9 +33,11 @@ Select the following Optional Features, especially the **pip**
 
 Click Next and In the <u>Advanced Options</u> select **Download debug binaries**.
 
+
 Choose install location as **C:\python**
 
-![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-16-43-22-image.png)
+![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-27-16-43-22-image.png)
+
 
 **<u>After installation of python finished, we need to set up the environment variables.</u>**
 
@@ -71,9 +75,10 @@ Back to the System Variables, add new variable by clicking the **New** button.
 
 ![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-17-06-05-image.png)
 
+
 New variable name as **PYTHONHOME** and Variable value as **C:\PYTHON**, and click OK
 
-![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-17-07-30-image.png)
+![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-27-17-07-30-image.png)
 
 ### 3. Installation of dependent libraries
 
