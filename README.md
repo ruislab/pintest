@@ -27,7 +27,8 @@ For pairwise interaction calculation, the software has 3 modes: (1) calculate th
 
 For Linux user, please read the manual in the following link
 <div>
-
+https://github.com/ruislab/pintest/blob/main/manual_Linux.md
+</div>
 
 ## Usage
 
