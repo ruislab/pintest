@@ -1,7 +1,5 @@
 # PIntest Installation
 
-> For Windows System
-
 Download softwares
 
 | Operating Systems | Link |
@@ -9,6 +7,7 @@ Download softwares
 | Windows 64bit | [V1.0](https://github.com/ruislab/pintest/releases/latest/download/PInteste_V1.0.zip) |
 | Linux | coming soon |
 
+# For Windows Users:
 ## Set up
 
 ### 1. Intallation of Python
@@ -111,3 +110,38 @@ If the following appears, the software has been installed successfully!
 ![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-17-25-41-image.png)
 
 #### **Now, you can use PIntest for analysis!**
+
+# For Linux users:
+
+The linux version of PIn test requires installation of **virtualenv or conda** before use:
+
+Download site for virtualenv:
+
+<div>
+https://virtualenv.pypa.io/en/latest/installation.html
+</div>
+
+Download site for conda:
+
+<div>
+https://docs.conda.io/projects/conda/en/stable/user-guide/install/index.html
+</div>
+
+Running the following commands using virtualenv or conda
+
+```
+ pip install -r requirements.txt
+```
+
+If appears warnings such as
+
+> ERROR: Could not find a version that satisfies the requirement yaml~=0.2.5 (from versions: none)
+> ERROR: No matching distribution found for yaml~=0.2.5
+
+Then, running the following and do not need to re-run last step
+
+```
+    pip install yacs
+```
+
+Now, you should be able to use the PIn test Linux version successfully!
