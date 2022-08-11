@@ -1,38 +1,3 @@
-# PIn test Installation
-
-The linux version of PIn test requires installation of **virtualenv or conda** before use:
-
-Download site for virtualenv:
-
-<div>
-https://virtualenv.pypa.io/en/latest/installation.html
-</div>
-
-Download site for conda:
-
-<div>
-https://docs.conda.io/projects/conda/en/stable/user-guide/install/index.html
-</div>
-
-Running the following commands using virtualenv or conda
-
-```
- pip install -r requirements.txt
-```
-
-If appears warnings such as
-
-> ERROR: Could not find a version that satisfies the requirement yaml~=0.2.5 (from versions: none)
-> 
-> ERROR: No matching distribution found for yaml~=0.2.5
-
-Then, running the following and do not need to re-run last step
-
-```
-    pip install yacs
-```
-
-Now, you should be able to use the PIn test Linux version successfully!
 
 # **PIn test Manual**
 
