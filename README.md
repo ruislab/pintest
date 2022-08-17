@@ -25,12 +25,9 @@ For pairwise interaction calculation, the software has 3 modes: (1) calculate th
 | Windows 64bit | [V1.0](https://github.com/ruislab/pintest/releases/latest/download/PIntest_linux_V1.0.zip) |
 | Linux | [V1.0_beta](https://github.com/ruislab/pintest/releases/latest/download/PIntest_linux_V1.0_beta.zip) |
 
-For Linux user, please read the manual in the following link
-<div>
-https://github.com/ruislab/pintest/blob/main/manual_Linux.md
-</div>
+Only Linux version supports input files in PLINK binary files format
 
-## Usage
+## Windows system Usage
 
 ```
 PIntest.exe -gp [genotype data] -pp [phenotype data] -mode [mode] -ep [extra data] -p.hwe [p.hwe] -p.input [p.input] -p.output [p.output] -sort -op [output data]
@@ -171,3 +168,4 @@ PIntest.exe -gp E:\PIntest\example_genotype.txt -pp E:\PIntest\example_phenotype
 
 This will process mode 3 epistasis testing in specified SNP pairs (SNP pairs in the pairs.txt file)
 
+## Linux system usage
