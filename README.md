@@ -22,7 +22,7 @@ For pairwise interaction calculation, the software has 3 modes: (1) calculate th
 
 | Operating Systems | Link |
 | --- | --- |
-| Windows 64bit | [V1.0](https://github.com/ruislab/pintest/releases/latest/download/V1.0/PIntest_linux_V1.0.zip) |
+| Windows 64bit | [V1.0](https://github.com/ruislab/pintest/releases/latest/download/PIntest_windows_V1.0.zip)|
 | Linux | [V1.0_beta](https://github.com/ruislab/pintest/releases/latest/download/PIntest_linux_V1.0_beta.zip) |
 
 Only Linux version supports input files in PLINK binary files format
