@@ -1,6 +1,6 @@
 # PIntest Installation
 
-Download softwares
+Download software
 
 | Operating Systems | Link |
 | --- | --- |
@@ -81,7 +81,7 @@ Enter cmd in the current directory path and press "Enter" key on the keyboard,
 
 ![](https://github.com/ruislab/pintest/blob/main/img_storage/2022-07-20-17-17-43-image.png)
 
-input the following commands
+Input the following commands:
 
 ```
 pip install scipy
@@ -113,7 +113,7 @@ If the following appears, the software has been installed successfully!
 
 # For Linux users:
 
-The linux version of PIn test requires installation of **virtualenv or conda** before use:
+The Linux version of PIn test requires installation of **virtualenv or conda** before use:
 
 Download site for virtualenv:
 
@@ -133,12 +133,12 @@ Running the following commands using virtualenv or conda
  pip install -r requirements.txt
 ```
 
-If appears warnings such as
+If warning appears such as
 
 > ERROR: Could not find a version that satisfies the requirement yaml~=0.2.5 (from versions: none)
 > ERROR: No matching distribution found for yaml~=0.2.5
 
-Then, running the following and do not need to re-run last step
+Then, run the following and do not need to re-run the last step
 
 ```
     pip install yacs
