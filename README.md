@@ -1,8 +1,8 @@
 # **PIn test Installation**
 
-PIn test depends on <u>python and other dependencies</u>, **we strongly recommend users read through <u><mark>installation guide</mark></u> before using!**
+PIn test depends on <u>python and other dependencies</u>, **we strongly recommend users to read through <u><mark>installation guide</mark></u> before using it!**
 
-For installation guide, please visit the following link
+For installation guide, please visit the following link:
 
 <div>
 https://github.com/ruislab/pintest/blob/main/Installation_guide.md
@@ -18,7 +18,7 @@ https://github.com/ruislab/pintest/blob/main/Installation_guide.md
 
 For pairwise interaction calculation, the software has 3 modes: (1) calculate the pairwise interaction exhaustively for all SNPs, (2) calculate pairwise interaction between a given SNP set and all SNPs, (3) calculate the pairwise interaction for a list of SNP pairs. The software embeds a quality control step to filter out SNPs that violate the assumptions of this method. For mode 1, the output can be filtered by p-values, such that only SNP pairs with smaller p-value than a threshold (p.output) will be returned.
 
-## Download softwares
+## Download software
 
 | Operating Systems | Link |
 | --- | --- |
@@ -119,17 +119,17 @@ PIntest.exe -gp [genotype data] -pp [phenotype data] -mode [mode] -ep [extra dat
   
   1. SNP1 - the first SNP name of a pair
     
-  2. SNP2 - the second SNP names of a pair
+  2. SNP2 - the second SNP name of a pair
     
   3. stat - Statistics of the PIn test
     
-  4. df - degree of freedoms used for calculating p-value
+  4. df - degree of freedom used for calculating p-value
     
   5. p - p-value of interaction testing
     
 - HWE file
   
-  A file names as [NAME].hwe contains the p-value of HWE test of all the input SNPs
+  A file named [NAME].hwe contains the p-value of HWE test of all the input SNPs
   
 - Deletion File
   
@@ -144,7 +144,7 @@ PIntest.exe -gp [genotype data] -pp [phenotype data] -mode [mode] -ep [extra dat
 
 ### Log File
 
-To allow for replication and problem tracking, a log file named *[Name].log* is generated for each run, which contain the all the commands used for the analysis and information regarding filtering etc.
+To allow for replication and problem tracking, a log file named *[Name].log* is generated for each run, which contains all the commands used for the analysis and information regarding filtering etc.
 
 ### Examples
 
@@ -176,17 +176,17 @@ This will process mode 3 epistasis testing in specified SNP pairs (SNP pairs in 
  python [path of main.py] --cfg [path of configuration file]
 ```
 
-In the package of PIn test, there are two files that needs attention
+In the package of PIn test, there are two files that need attention
 
 <u>**main.py**</u> and **<u>config.yaml</u>**
 
 #### main.py
 
-the the main file for the software to run
+the main file for the software to run
 
 #### **config.yaml**
 
-the configuration file in the *configs folder*, which users could edit the parameters to achieve different functions.
+the configuration file in the *config folder*, which users could edit the parameters to achieve different functions.
 
 ### **Parameters**
 
@@ -281,17 +281,17 @@ the configuration file in the *configs folder*, which users could edit the param
   
   1. SNP1 - the first SNP name of a pair
     
-  2. SNP2 - the second SNP names of a pair
+  2. SNP2 - the second SNP name of a pair
     
   3. stat - Statistics of the PIn test
     
-  4. df - degree of freedoms used for calculating p-value
+  4. df - degree of freedom used for calculating p-value
     
   5. p - p-value of interaction testing
     
 - HWE file
   
-  A file names as [NAME].hwe contains the p-value of HWE test of all the input SNPs
+  A file named [NAME].hwe contains the p-value of HWE test of all the input SNPs
   
 - Deletion File
   
@@ -308,7 +308,7 @@ the configuration file in the *configs folder*, which users could edit the param
 
 ### Log File
 
-To allow for replication and problem tracking, a log file named *[Name].log* is generated for each run, which contain the all the commands used for the analysis and information regarding filtering etc.
+To allow for replication and problem tracking, a log file named *[Name].log* is generated for each run, which contains all the commands used for the analysis and information regarding filtering etc.
 
 ### Examples
 
