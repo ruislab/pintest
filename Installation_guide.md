@@ -1,12 +1,5 @@
 # PIntest Installation
 
-Download software
-
-| Operating Systems | Link |
-| --- | --- |
-| Windows 64bit | [V1.0](https://github.com/ruislab/pintest/releases/latest/download/PInteste_V1.0.zip) |
-| Linux | [V1.0_beta](https://github.com/ruislab/pintest/releases/latest/download/PIntest_linux_V1.0_beta.zip) |
-
 # For Windows Users:
 ## Set up
 
