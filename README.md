@@ -189,7 +189,7 @@ the configuration file in the *config folder*, which users could edit the parame
   
   -mode 1 for exhaustive pairwise epistasis testing <u>(ALL * ALL)</u>
   
-   -mode 2 for epistasis testing in specified SNPs interacting with all markers <u>(SET1 *  ALL)</u>
+  -mode 2 for epistasis testing in specified SNPs interacting with all markers <u>(SET1 *  ALL)</u>
   
   -mode 3 for epistasis testing in specified SNP pairs <u>(SNP1 * SNP2)</u>
   
@@ -211,6 +211,13 @@ the configuration file in the *config folder*, which users could edit the parame
   
   When specified, only results with p-values smaller than the *p.output* will be listed in the output file.
   Default is 0.01. *Set p_output **1.0** for listing all the results.
+  
+- **WINDOW**
+  
+  A parameter for restricting calculation within specific genomic distance.
+  
+  When specified, only SNP pairs within the window size will be calculated.
+  If input PLINK binary format data, WINDOW should be specified with value **other than 0**.
   
 - **P_LINK**
   
