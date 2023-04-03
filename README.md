@@ -245,6 +245,13 @@ the configuration file in the *config folder*, which users could edit the parame
   
   If mode 3 is set, a data frame containing specified SNP pairs should be provided as extra data.
   
+  - **WINDOW**
+  
+  A parameter for restricting calculation within specific genomic distance.
+  
+  When specified, only SNP pairs within the window size will be calculated.
+  If input PLINK binary format data, WINDOW should be specified with value **other than 0**.
+  
 - **sort**
   
   TRUE or FALSE. A parameter for sorting the output in an ascending order based on p-values of PIn test.
