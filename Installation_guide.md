@@ -5,7 +5,7 @@ Download software
 | Operating Systems | Link |
 | --- | --- |
 | Windows 64bit | [V1.0](https://github.com/ruislab/pintest/releases/latest/download/pintest_windows_V1.0.rar) |
-| Linux | [V1.0](https://github.com/ruislab/pintest/releases/latest/download/pintest_linux._V1.0.rar) |
+| Linux | [V1.0](https://github.com/ruislab/pintest/releases/latest/download/pintest_linux_V1.0.rar) |
 
 
 # For Windows Users:
